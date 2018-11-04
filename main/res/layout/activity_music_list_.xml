@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MusicList_Activity">
+
+    <ImageButton
+        android:id="@+id/S1001"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:adjustViewBounds="true"
+        android:onClick="handlerSelection"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/michael_buble_collection" />
+
+    <ImageButton
+        android:id="@+id/S1002"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:adjustViewBounds="true"
+        android:onClick="handlerSelection"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/S1001"
+        app:srcCompat="@drawable/billie_jean" />
+
+    <TextView
+        android:id="@+id/txtTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
+        android:text="The way you look tonight"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/S1001"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtArtist1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        android:text="Michael Buble"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/S1001"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle1" />
+
+    <TextView
+        android:id="@+id/txtTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="136dp"
+        android:text="Billie Jean"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/S1002"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtArtist2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        android:text="Michael Jackson"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/S1002"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle2" />
+
+    <ImageButton
+        android:id="@+id/S1003"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:adjustViewBounds="true"
+        android:onClick="handlerSelection"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/S1002"
+        app:srcCompat="@drawable/photograph" />
+
+    <TextView
+        android:id="@+id/txtTitle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="248dp"
+        android:text="Photograph"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/S1003"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtArtist3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        android:text="Ed Sheeran"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/S1003"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle3" />
+
+    <ImageButton
+        android:id="@+id/S1004"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:adjustViewBounds="true"
+        android:onClick="handlerSelection"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/S1003"
+        app:srcCompat="@drawable/divide_cover" />
+
+    <TextView
+        android:id="@+id/txtTitle4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="360dp"
+        android:text="Galway Girl"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/S1004"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textArtist4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        android:text="Ed Sheeran"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/S1004"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle4" />
+</android.support.constraint.ConstraintLayout>
